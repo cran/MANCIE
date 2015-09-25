@@ -1,0 +1,2 @@
+export(mancie,summarize_mat)
+importFrom("stats","cor","prcomp","sd")

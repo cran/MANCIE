@@ -1,0 +1,7 @@
+1.0
+* First official release
+1.1
+* Added in the output percentage of rows in each category and warning if the percentage is too small or large for one category
+* The function manual also includes some suggestion on this topic
+1.2
+* Fixed a problem in the NAMESPACE file

@@ -1,0 +1,11 @@
+2f8a8aa580f75bb73b987408cbd91a91 *DESCRIPTION
+10c7e8b37727c399b984d69e01f340e2 *NAMESPACE
+9d40a4e02740172031f80f8782db8604 *NEWS
+39b6f4fc7f4fbcb28c4645c9a0b7d056 *R/get_nearby.R
+818a5faedd202dd758212d7d57bdcc16 *R/mancie.R
+73045ebb561a579d7031b2d9ad29800e *R/summarize_mat.R
+f7315cc3160d1351487af060bceac910 *data/datalist
+407ea5366e65c588c55a998263cc1452 *data/mancie_example.rda
+72471187c7415bd3b7df896a92390e67 *man/mancie.Rd
+7f144b33af200eb4f2e923d70a2c0f79 *man/mancie_example.Rd
+1f3444b1e46b84d6e3c109b1a8596e8c *man/summarize_mat.Rd
