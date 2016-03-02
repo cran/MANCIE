@@ -4,7 +4,7 @@
 \description{
   Summarize information in the supplementary matrix according to physical location into a new matrix with the same dimensions as the main matrix
 }
-\usage{summarize_mat(mat_main,ann_main,mat_supp,ann_supp,n_limit=50,extend=100000)
+\usage{summarize_mat(mat_main,ann_main,mat_supp,ann_supp,n_limit=50,extend=100000,method="pca")
 }
 \arguments{
   \item{mat_main}{
@@ -24,6 +24,9 @@
   } 
   \item{extend}{
     The genomic features in the supplemenatry matrix that are no farther away than \code{extend} bp from the feature in question in the main matrix will be used for summarization
+  }
+  \item{method}{
+    Which method to summarize the information in the supplementary matrix when there are >1 neighboring row vectors associated with the row vector in the main matrix. "pca" (default) or "max". In the "max" method, the row vector of these neighboring vectors with the highest correlation with the row vector in the main matrix is used. In the "pca" method, PCA is caculated for these row vectors and the first principal component is used.
   } 
 }
 \details{

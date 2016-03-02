@@ -5,3 +5,7 @@
 * The function manual also includes some suggestion on this topic
 1.2
 * Fixed a problem in the NAMESPACE file
+1.3 
+* Added the "max" summarization function according to reviewer's advice. It may give a better result for some datasets.
+1.4
+* The summarization function now uses "pca" method as default
